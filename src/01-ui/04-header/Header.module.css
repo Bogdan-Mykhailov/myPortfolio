@@ -1,0 +1,88 @@
+.headerWrapper {
+  background-color: rgba(7, 13, 27, 0.9);
+  -webkit-box-shadow: 0 10px 10px -10px rgb(7 13 27 / 10%);
+  box-shadow: 0 10px 10px -10px rgb(7 13 27 / 10%);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.mainHeader {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/*@media (min-width: 992px) {*/
+/*  .container {*/
+/*    max-width: 960px;*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*  .container {*/
+/*    max-width: 720px;*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 576px) {*/
+/*  .container {*/
+/*    max-width: 540px;*/
+/*  }*/
+/*}*/
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: end;
+  height: 80px;
+}
+
+.linksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.linksWrapper a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.active {
+  color: #fec544;
+  padding-left: 15px;
+}
+
+.link {
+  padding-left: 15px;
+  color: inherit;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
