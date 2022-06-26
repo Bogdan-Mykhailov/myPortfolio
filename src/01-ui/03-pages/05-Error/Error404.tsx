@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Contacts = () => {
+export const Error404 = () => {
   return (
     <div>
-      Contacts
+      <h2>Not Found 404</h2>
     </div>
   );
 };

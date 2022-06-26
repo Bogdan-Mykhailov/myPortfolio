@@ -1,10 +1,10 @@
 import React from 'react';
 import {Navigate, Route, Routes} from "react-router-dom";
-import {Home} from "../03-pages/Home/Home";
-import {Contacts} from "../03-pages/Contacts/Contacts";
-import {Portfolio} from "../03-pages/Portfolio/Portfolio";
-import {About} from "../03-pages/About/About";
-import {Error404} from "../03-pages/Error/Error404";
+import {Home} from "../03-pages/01-Home/Home";
+import {Contacts} from "../03-pages/04-Contacts/Contacts";
+import {Portfolio} from "../03-pages/03-Portfolio/Portfolio";
+import {About} from "../03-pages/02-About/About";
+import {Error404} from "../03-pages/05-Error/Error404";
 
 export const PATH = {
   HOME: '/home',
@@ -16,7 +16,6 @@ export const PATH = {
 
 export const Routs = () => {
 
-
   return (
     <div>
       <Routes>
@@ -27,9 +26,7 @@ export const Routs = () => {
         <Route path={PATH.CONTACTS} element={<Contacts/>}/>
         <Route path='/*' element={<Navigate to={PATH.ERROR_404}/>}/>
         <Route path={PATH.ERROR_404} element={<Error404/>}/>
-
       </Routes>
-
     </div>
   );
 };

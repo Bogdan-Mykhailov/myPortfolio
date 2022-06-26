@@ -1,0 +1,67 @@
+.socialGroup {
+  background-color: #101624;
+  border: 1px solid #232935;
+  border-right: 0;
+  border-radius: 50px 0 0 50px;
+  height: 70px;
+  min-width: 480px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  left: 720px;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+}
+
+.socialBtn {
+  margin-left: 15px;
+  overflow: hidden;
+  background-color: #070d1b;
+  border: 1px solid #3f4551;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 30px;
+  min-width: 30px;
+  max-width: max-content;
+  height: 30px;
+  text-align: center;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.socialBtn:hover, .active {
+  padding: 10px;
+  width: 100%;
+  max-width: min-content;
+}
+
+.socialIcon {
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  filter: brightness(0) saturate(100%) invert(77%) sepia(6%) saturate(415%) hue-rotate(186deg) brightness(90%) contrast(88%);
+}
+
+.iconName {
+  margin: 5px;
+  font-weight: 300;
+  font-size: 15px;
+  overflow: hidden;
+  display: flex;
+}
