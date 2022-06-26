@@ -1,7 +1,8 @@
 import React from 'react';
-import {PATH, Routs} from "../02-routes/Routs";
+import {PATH} from "../02-routes/Routs";
 import {NavLink} from "react-router-dom";
 import s from './Header.module.css'
+import phone from '../../assets/img/phone-solid.svg'
 
 export const Header = () => {
   return (
@@ -15,6 +16,12 @@ export const Header = () => {
                 <NavLink className={navData => navData.isActive ? s.active : s.link} to={PATH.ABOUT}>About</NavLink>
                 <NavLink className={navData => navData.isActive ? s.active : s.link} to={PATH.PORTFOLIO}>Portfolio</NavLink>
                 <NavLink className={navData => navData.isActive ? s.active : s.link} to={PATH.CONTACTS}>Contacts</NavLink>
+                <div className={s.phoneIconWrapper}>
+                  <img className={s.phoneIcon} src={phone} alt="phone"/>
+                </div>
+                <div className={s.phoneNumber}>
+                  <a href='tel:+380930179629'>+380 (93) 017 96 29</a>
+                </div>
               </div>
             </div>
           </div>

@@ -86,3 +86,25 @@
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+.phoneNumber a {
+  color: #fec544;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.phoneIconWrapper {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.phoneIcon {
+  background-color: transparent;
+  height: 14px;
+  width: 14px;
+  filter: brightness(0) saturate(100%) invert(77%) sepia(10%) saturate(246%) hue-rotate(186deg) brightness(91%) contrast(85%);
+}
