@@ -1,4 +1,4 @@
-.skill {
+.portfolioItem {
   width: 250px;
   background: cadetblue;
   display: flex;
@@ -6,11 +6,11 @@
   align-items: center;
 }
 
-.icon {
-  width: 60px;
+.wallpaper {
+
 }
 
-.title {
+.projectName {
 
 }
 

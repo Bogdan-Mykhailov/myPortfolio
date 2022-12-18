@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Skills.module.css'
-import styles from '../../common/styles/Container.module.css'
+import styles from '../../common/styles/Common.module.css'
 import {Skill} from "./skill/Skill";
 import tel from '../../assets/img/phone-solid.svg'
 

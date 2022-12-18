@@ -13,7 +13,7 @@ export const Header = () => {
       {/*          <NavLink className={navData => navData.isActive ? s.active : s.link} to={PATH.HOME}>Home</NavLink>*/}
       {/*          <NavLink className={navData => navData.isActive ? s.active : s.link} to={PATH.ABOUT}>About</NavLink>*/}
       {/*          <NavLink className={navData => navData.isActive ? s.active : s.link}*/}
-      {/*                   to={PATH.PORTFOLIO}>Portfolio</NavLink>*/}
+      {/*                   to={PATH.PORTFOLIO}>PortfolioItem</NavLink>*/}
       {/*          <NavLink className={navData => navData.isActive ? s.active : s.link}*/}
       {/*                   to={PATH.CONTACTS}>Contacts</NavLink>*/}
       {/*          <div className={s.phoneIconWrapper}>*/}

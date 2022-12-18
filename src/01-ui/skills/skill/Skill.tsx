@@ -12,12 +12,13 @@ export const Skill = ({
                         title,
                         icon,
                         imgDescription,
-                        skillDescription }: ISkill) => {
+                        skillDescription
+                      }: ISkill) => {
   return (
     <div className={s.skill}>
       <img className={s.icon} src={icon} alt={imgDescription}/>
       <h3 className={s.title}>{title}</h3>
-      <p className={s.description}>{skillDescription}</p>
+      <span className={s.description}>{skillDescription}</span>
     </div>
   );
 };
