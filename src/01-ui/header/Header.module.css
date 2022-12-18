@@ -58,7 +58,7 @@
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: end;
+  justify-content: flex-end;
   height: 80px;
 }
 
@@ -107,4 +107,11 @@
   height: 14px;
   width: 14px;
   filter: brightness(0) saturate(100%) invert(77%) sepia(10%) saturate(246%) hue-rotate(186deg) brightness(91%) contrast(85%);
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+.header1 {
+  height: 60px;
+  background-color: aquamarine;
 }
