@@ -4,7 +4,7 @@ import {Nav} from "../nav/Nav";
 
 export const Header = () => {
   return (
-    <header className={s.header1}>
+    <header id='home' className={s.header1}>
       {/*<div className={s.headerWrapper}>*/}
       {/*  <div className={s.mainHeader}>*/}
       {/*    <div className={s.container}>*/}
