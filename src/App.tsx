@@ -5,6 +5,7 @@ import {Main} from "./01-ui/main/Main";
 import {Skills} from "./01-ui/skills/Skills";
 import {Portfolio} from "./01-ui/portfolio/Portfolio";
 import {Contacts} from "./01-ui/contacts/Contacts";
+import {Footer} from "./01-ui/footer/Footer";
 
 export const App = () => (
   <div className={s.app}>
@@ -13,5 +14,6 @@ export const App = () => (
     <Skills/>
     <Portfolio/>
     <Contacts/>
+    <Footer/>
   </div>
 );

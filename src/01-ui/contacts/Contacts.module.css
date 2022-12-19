@@ -2,3 +2,28 @@
   height: 100vh;
   background-color: indianred;
 }
+
+.contactsContainer {
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  background: #fec544;
+}
+
+.contactsWrapper {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contactsInfo {
+  width: 750px;
+  background: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
