@@ -1,5 +1,5 @@
 .contacts {
-  height: 100vh;
+  /*height: 100vh;*/
   background-color: indianred;
 }
 
@@ -17,15 +17,19 @@
   border: 1px solid black;
   width: 100%;
   display: flex;
-  justify-content: center;}
+  background-color: #fec544;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .contactsInfo {
-  width: 650px;
-  background: cadetblue;
+  padding: 20px;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  /*background-color: white;*/
 }
 
 .input {
@@ -35,9 +39,10 @@
 
 .textarea {
   width: 100%;
-  margin-bottom: 50px;
 }
 
 .button {
   background-color: red;
+  width: 100px;
+  margin: 0 auto;
 }

@@ -6,13 +6,15 @@ import {Skills} from "./01-ui/skills/Skills";
 import {Portfolio} from "./01-ui/portfolio/Portfolio";
 import {Contacts} from "./01-ui/contacts/Contacts";
 import {Footer} from "./01-ui/footer/Footer";
+import {About} from "./01-ui/about/About";
 
 export const App = () => (
   <div className={s.app}>
     <Header/>
     <Main/>
-    <Skills/>
+    <About/>
     <Portfolio/>
+    <Skills/>
     <Contacts/>
     <Footer/>
   </div>

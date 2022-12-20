@@ -6,7 +6,7 @@ import tel from '../../assets/img/phone-solid.svg'
 
 export const Skills = () => {
   return (
-    <section id='about' className={s.skills}>
+    <section id='skills' className={s.skills}>
       <div className={`${styles.container} ${s.skillsContainer}`}>
         <h2 className={s.title}>Skills</h2>
         <div className={s.skillsWrapper}>

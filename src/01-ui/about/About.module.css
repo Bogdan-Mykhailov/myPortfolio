@@ -1,0 +1,40 @@
+.about {
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: #fec544;
+}
+
+.wrapper {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.photo {
+  background-color: blue;
+  height: 400px;
+  width: 300px;
+}
+
+.bio {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+p {
+  margin: 0;
+}
