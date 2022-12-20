@@ -1,5 +1,5 @@
 .footer {
-  height: 200px;
+  min-height: 200px;
   background-color: saddlebrown;
 }
 
@@ -12,3 +12,23 @@
 .title {
   background-color: #fec544;
 }
+
+.socialWrapper {
+  display: flex;
+  width: 40%;
+  background: yellowgreen;
+  justify-content: space-between;
+}
+
+.socialLink {
+  height: 50px;
+  width: 50px;
+  background-color: indianred;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .footerRights {
+   margin-top: 50px;
+   background: blueviolet;
+ }
