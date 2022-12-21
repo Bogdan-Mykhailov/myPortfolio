@@ -4,7 +4,6 @@
 }
 
 .footerContainer {
-  align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -15,7 +14,7 @@
 
 .socialWrapper {
   display: flex;
-  width: 40%;
+  width: 30%;
   background: yellowgreen;
   justify-content: space-between;
 }
