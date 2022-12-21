@@ -7,7 +7,9 @@ export const Portfolio = () => {
   return (
     <section id='portfolio' className={s.portfolio}>
       <div className={`${styles.container} ${s.portfolioContainer}`}>
-        <h2 className={s.title}>Portfolio</h2>
+        <div className={s.title}>
+          <h2>Portfolio</h2>
+        </div>
         <div className={s.portfolioWrapper}>
           <PortfolioItem
             title="Todolist"
