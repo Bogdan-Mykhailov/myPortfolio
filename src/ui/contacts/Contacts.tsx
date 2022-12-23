@@ -7,7 +7,7 @@ export const Contacts = () => {
   return (
     <section id='contacts' className={s.contacts}>
       <div className={`${styles.container} ${s.contactsContainer}`}>
-        <Title title='Contacts'/>
+        <Title title='Contact'/>
           <form className={s.contactsForm} method='post' action="http://localhost:3000">
             <input className={s.input} type="text" placeholder='Name'/>
             <input className={s.input} type="email" placeholder='E-mail'/>

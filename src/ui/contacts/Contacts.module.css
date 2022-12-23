@@ -1,6 +1,5 @@
 .contacts {
   padding: 100px 0;
-  max-height: 100vh;
   background-color: #1f1f20;
 }
 
@@ -71,6 +70,26 @@
   padding: 7px 20px;
   cursor: pointer;
   color: #fff;
+  position: relative;
+  z-index: 1;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  width: 50%;
+  background: #4e93e6;
+  z-index: -1;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #4e93e6;
 }
 
 @media screen and (max-width: 670px) {

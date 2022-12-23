@@ -24,7 +24,7 @@
 }
 
 .bio {
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -54,9 +54,9 @@
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.8;
   font-family: Poppins, sans-serif;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .bio p {
@@ -69,7 +69,7 @@
 }
 
 .aboutMe {
-  margin-left: 20px;
+  margin: 0 0 0 20px;
   color: #fff;
   font-weight: 400;
   font-size: 14px;
