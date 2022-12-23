@@ -1,6 +1,7 @@
 .about {
+  padding: 100px 0;
   min-height: 100vh;
-  background-color: lightblue;
+  background-color: #252527;
 }
 
 .aboutContainer {
@@ -8,33 +9,87 @@
   flex-direction: column;
 }
 
-.title {
-  background-color: #fec544;
-}
-
 .wrapper {
-  border: 1px solid black;
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 30px;
   flex-wrap: wrap;
 }
 
 .photo {
-  background-color: blue;
-  height: 400px;
-  width: 300px;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 350px;
 }
 
 .bio {
   padding: 20px;
-  background-color: white;
   display: flex;
   flex-direction: column;
   width: 500px;
 }
 
-p {
+.title {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.subTitle {
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  font-weight: 500;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.description {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 20px;
+}
+
+.bio p {
   margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: Poppins, sans-serif;
+}
+
+.aboutMe {
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+.bio a {
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+@media screen and (max-width: 1138px) {
+  .photo {
+    display: none;
+  }
 }

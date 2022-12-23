@@ -16,7 +16,9 @@ export const Skill = ({
                       }: ISkill) => {
   return (
     <div className={s.skill}>
-      <img className={s.icon} src={icon} alt={imgDescription}/>
+      <div className={s.iconWrapper}>
+        <img className={s.icon} src={icon} alt={imgDescription}/>
+      </div>
       <h3 className={s.title}>{title}</h3>
       <span className={s.description}>{skillDescription}</span>
     </div>

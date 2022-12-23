@@ -1,6 +1,7 @@
 .contacts {
-  height: 100vh;
-  background-color: indianred;
+  padding: 100px 0;
+  max-height: 100vh;
+  background-color: #1f1f20;
 }
 
 .contactsContainer {
@@ -9,26 +10,67 @@
   justify-content: flex-start;
 }
 
-.title {
-  background: #fec544;
-}
-
-
 .contactsForm {
   width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  transition: all 0.4s ease-in-out 0s;
 }
 
-.input, .textarea{
+.input {
+  background: #252527;
+  width: 100%;
+  border: 1px solid #4a4a4a;
+  outline: none;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 15px;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  height: calc(1.5em + 0.75rem + 2px);
+  color: #4a4a4a;
+  transition: all 0.4s ease-in-out 0s;
+  margin-bottom: 15px;
+}
+
+.textarea {
+  padding: 15px;
+  resize: vertical;
+  color: #4a4a4a;
+  transition: all 0.4s ease-in-out 0s;
+  outline: none;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  background: #252527;
   width: 100%;
   margin-bottom: 5px;
+  border: 1px solid #4a4a4a;
+}
+
+.input:focus,
+.textarea:focus {
+  border: 1px solid #252527;
 }
 
 .button {
-  padding: 10px 20px;
+  max-width: 170px;
+  border: none;
+  margin: 15px 0;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 7px 20px;
+  cursor: pointer;
+  color: #fff;
 }
 
 @media screen and (max-width: 670px) {

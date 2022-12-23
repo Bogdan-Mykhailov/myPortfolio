@@ -1,8 +1,13 @@
 import React from 'react';
 import s from './Main.module.css'
 import styles from '../../common/styles/Common.module.css'
+import mainPhoto from "../../assets/img/photo.jpg";
 
 export const Main = () => {
+  const photo = {
+    backgroundImage: `url(${mainPhoto})`
+  };
+
   return (
     <main id='home' className={s.main}>
       <div className={styles.container}>
@@ -13,7 +18,7 @@ export const Main = () => {
           </h1>
           <p className={s.role}>Frontend developer</p>
         </div>
-        <div className={s.photo}></div>
+        <div className={s.photo} style={photo}></div>
       </div>
     </main>
   );
