@@ -9,24 +9,16 @@
   justify-content: flex-start;
 }
 
-.title {
-  background: #fec544;
-}
-
-.title h2 {
-
-}
-
 .portfolioWrapper {
-  border: 1px solid black;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 1205px) {
-.portfolioWrapper {
-  justify-content: center;
-}
+  .portfolioWrapper {
+    justify-content: center;
+  }
 }

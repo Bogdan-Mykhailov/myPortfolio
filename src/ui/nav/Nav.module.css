@@ -1,10 +1,14 @@
 .nav {
   border: 1px solid black;
   display: flex;
-  width: 300px;
+  width: 35%;
   justify-content: space-between;
 }
 
 .navLink {
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  position: relative;
   text-decoration: none;
 }

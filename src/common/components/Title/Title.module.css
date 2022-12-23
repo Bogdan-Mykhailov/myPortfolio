@@ -1,0 +1,24 @@
+.title {
+  position: relative;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  background: #4e93e6;
+  width: 55px;
+  height: 1px;
+  bottom: 50px;
+  transform: translate(-50%, 50%);
+  left: 50%;
+}
+
+.title h2 {
+  margin: 0 0 70px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 36px;
+  letter-spacing: 5px;
+  line-height: 1.2;
+}

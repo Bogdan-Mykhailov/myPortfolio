@@ -8,8 +8,10 @@ export const Main = () => {
       <div className={styles.container}>
         <div className={s.myInfo}>
           <span className={s.greeting}>Hi there</span>
-          <h1 className={s.name}>I'm Bogdan Mykhailov</h1>
-          <p className={s.position}>Frontend developer</p>
+          <h1 className={s.text}>I am <br/>
+            <span className={s.myName}>Bogdan Mykhailov</span>
+          </h1>
+          <p className={s.role}>Frontend developer</p>
         </div>
         <div className={s.photo}></div>
       </div>

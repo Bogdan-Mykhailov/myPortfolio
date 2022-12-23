@@ -1,23 +1,58 @@
 .main {
+  padding: 100px 0;
   height: 100vh;
-  background-color: #fec544;
+  background-color: #1f1f20;
 }
 
 .myInfo {
-  width: 300px;
-  background: cadetblue;
+  min-width: 300px;
 }
 
 .greeting {
-
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  line-height: 1.8;
+  color: #fff;
 }
 
-.name {
+.text {
+  font-size: 50px;
+  padding: 10px 0 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 5px;
   margin: 0;
+  color: #fff;
 }
 
-.position {
+.myName {
+  font-size: 50px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
 
+.myName::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  z-index: -1;
+  background: #4e93e6;
+}
+
+.role {
+  font-size: 27px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.8;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 
 .photo {

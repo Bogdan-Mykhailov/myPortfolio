@@ -1,13 +1,14 @@
 import React from 'react';
 import s from './About.module.css'
 import styles from '../../common/styles/Common.module.css'
+import {Title} from "../../common/components/Title/Title";
 
 
 export const About = () => {
   return (
     <section id='about' className={s.about}>
       <div className={`${s.aboutContainer} ${styles.container}`}>
-        <h2 className={s.title}>About</h2>
+        <Title title='About'/>
         <div className={s.wrapper}>
           <div className={s.photo}></div>
           <div className={s.bio}>

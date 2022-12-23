@@ -1,6 +1,6 @@
 .portfolioItem {
   width: 450px;
-  background: cadetblue;
+  background-color: #252527;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,9 +12,19 @@
   justify-content: center;
   width: 100%;
   height: 300px;
-  background-image: url("https://cdn.pixabay.com/photo/2016/08/27/12/06/website-1624028_1280.png");
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.imgWrapper::before {
+  position: absolute;
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .link {
@@ -22,14 +32,28 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   color: white;
-  border-radius: 5px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.projectInfo {
+  padding: 25px 20px;
 }
 
 .projectName {
-
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0 0 5px;
+  line-height: 1.2;
+  color: #fff;
 }
 
 .description {
-  text-align: center;
-  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #fff;
 }
