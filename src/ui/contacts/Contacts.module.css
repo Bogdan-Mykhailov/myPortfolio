@@ -1,6 +1,6 @@
 .contacts {
   padding: 100px 0;
-  background-color: #1f1f20;
+  background-color: var(--gray-extradark);
 }
 
 .contactsContainer {
@@ -18,18 +18,18 @@
 }
 
 .input {
-  background: #252527;
+  background-color: var(--gray-dark);
   width: 100%;
-  border: 1px solid #4a4a4a;
+  border: 1px solid var(--gray-light);
   outline: none;
   font-size: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   padding: 0 15px;
   border-radius: 0;
   font-weight: 400;
   line-height: 1.5;
   height: calc(1.5em + 0.75rem + 2px);
-  color: #4a4a4a;
+  color: var(--gray-light);
   transition: all 0.4s ease-in-out 0s;
   margin-bottom: 15px;
 }
@@ -37,23 +37,23 @@
 .textarea {
   padding: 15px;
   resize: vertical;
-  color: #4a4a4a;
+  color: var(--gray-light);
   transition: all 0.4s ease-in-out 0s;
   outline: none;
   font-size: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--poppins);
   border-radius: 0;
   font-weight: 400;
   line-height: 1.5;
-  background: #252527;
+  background-color: var(--gray-dark);
   width: 100%;
   margin-bottom: 5px;
-  border: 1px solid #4a4a4a;
+  border: 1px solid var(--gray-light);
 }
 
 .input:focus,
 .textarea:focus {
-  border: 1px solid #252527;
+  border: 1px solid var(--gray-dark);
 }
 
 .button {
@@ -64,12 +64,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-  font-family: Poppins, sans-serif;
+  font-family: var(--poppins);
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 7px 20px;
   cursor: pointer;
-  color: #fff;
+  color: var(--text);
   position: relative;
   z-index: 1;
   transition: all 0.4s ease-in-out 0s;
@@ -83,13 +83,13 @@
   bottom: 0;
   height: 10px;
   width: 50%;
-  background: #4e93e6;
+  background: var(--primary);
   z-index: -1;
   margin: 0 auto;
 }
 
 .button:hover {
-  background-color: #4e93e6;
+  background-color: var(--primary);
 }
 
 @media screen and (max-width: 670px) {

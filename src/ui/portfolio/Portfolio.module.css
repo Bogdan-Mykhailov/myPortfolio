@@ -1,6 +1,6 @@
 .portfolio {
   padding: 100px 0;
-  background-color: #1f1f20;
+  background-color: var(--gray-extradark);
 }
 
 .portfolioContainer {

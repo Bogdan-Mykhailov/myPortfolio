@@ -5,7 +5,7 @@
 }
 
 .navLink {
-  color: white;
+  color: var(--text);
   letter-spacing: 1px;
   border-radius: 2px;
   position: relative;

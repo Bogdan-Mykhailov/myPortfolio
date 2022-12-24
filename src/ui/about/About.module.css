@@ -1,7 +1,7 @@
 .about {
   padding: 100px 0;
   min-height: 100vh;
-  background-color: #252527;
+  background-color: var(--gray-dark);
 }
 
 .aboutContainer {
@@ -31,7 +31,7 @@
 }
 
 .title {
-  color: #fff;
+  color: var(--text);
   letter-spacing: 1px;
   font-size: 25px;
   font-weight: 500;
@@ -47,45 +47,45 @@
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 2px;
-  color: #fff;
+  color: var(--text);
 }
 
 .description {
-  color: #fff;
+  color: var(--text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
-  font-family: Poppins, sans-serif;
+  font-family: var(--poppins);
   margin: 0 0 20px;
 }
 
 .bio p {
   margin: 0;
-  color: #fff;
+  color: var(--text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
-  font-family: Poppins, sans-serif;
+  font-family: var(--poppins);
 }
 
 .aboutMe {
   margin: 0 0 0 20px;
-  color: #fff;
+  color: var(--text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
   text-decoration: none;
-  font-family: Poppins, sans-serif;
+  font-family: var(--poppins);
 }
 
 .bio a {
   margin-left: 20px;
-  color: #fff;
+  color: var(--text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
   text-decoration: none;
-  font-family: Poppins, sans-serif;
+  font-family: var(--poppins);
 }
 
 @media screen and (max-width: 1138px) {
