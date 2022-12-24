@@ -1,6 +1,5 @@
 .about {
   padding: 100px 0;
-  min-height: 100vh;
   background-color: var(--gray-dark);
 }
 
@@ -19,32 +18,33 @@
 .photo {
   background-size: cover;
   background-position: center;
-  height: 450px;
-  width: 350px;
+  height: 550px;
+  width: 450px;
 }
 
 .bio {
-  padding: 10px 20px;
+  padding: 30px 20px;
   display: flex;
   flex-direction: column;
   width: 500px;
+  min-height: 550px;
 }
 
 .title {
   color: var(--text);
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 27px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 1.8;
 }
 
 .subTitle {
   text-transform: uppercase;
-  margin: 0 0 15px;
+  margin: 0 0 25px;
   font-weight: 500;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
   letter-spacing: 2px;
   color: var(--text);
@@ -53,17 +53,17 @@
 .description {
   color: var(--text);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   font-family: var(--poppins);
-  margin: 0 0 20px;
+  margin: 0 0 30px;
 }
 
 .bio p {
   margin: 0;
   color: var(--text);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   font-family: var(--poppins);
 }
@@ -72,7 +72,7 @@
   margin: 0 0 0 20px;
   color: var(--text);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   text-decoration: none;
   font-family: var(--poppins);

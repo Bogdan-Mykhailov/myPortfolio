@@ -19,7 +19,7 @@
 
 .input {
   background-color: var(--gray-dark);
-  width: 100%;
+  width: 80%;
   border: 1px solid var(--gray-light);
   outline: none;
   font-size: 12px;
@@ -46,7 +46,7 @@
   font-weight: 400;
   line-height: 1.5;
   background-color: var(--gray-dark);
-  width: 100%;
+  width: 80%;
   margin-bottom: 5px;
   border: 1px solid var(--gray-light);
 }
