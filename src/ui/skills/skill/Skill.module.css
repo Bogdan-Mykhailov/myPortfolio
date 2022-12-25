@@ -43,3 +43,9 @@
   line-height: 1.7;
   font-family: var(--poppins);
 }
+
+@media screen and (max-width: 1142px) {
+  .skill {
+    max-width: 450px;
+  }
+}

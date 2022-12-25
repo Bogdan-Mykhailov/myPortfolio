@@ -8,14 +8,17 @@ import {Contacts} from "./ui/contacts/Contacts";
 import {Footer} from "./ui/footer/Footer";
 import {About} from "./ui/about/About";
 
-export const App = () => (
-  <div className={s.app}>
-    <Header/>
-    <Main/>
-    <About/>
-    <Portfolio/>
-    <Skills/>
-    <Contacts/>
-    <Footer/>
-  </div>
-);
+export const App = () => {
+
+  return (
+    <div className={s.app}>
+      <Header/>
+      <Main/>
+      <About/>
+      <Portfolio/>
+      <Skills/>
+      <Contacts/>
+      <Footer/>
+    </div>
+  )
+};

@@ -1,6 +1,7 @@
 .main {
-  padding: 120px 0;
-  min-height: calc(100vh - 80px);
+  position: relative;
+  padding: 100px 0;
+  min-height: 100vh;
   background-color: var(--gray-extradark);
 }
 
@@ -56,10 +57,32 @@
   color: var(--text);
 }
 
+.photoWrapper {
+  position: relative;
+  z-index: 1;
+}
+
 .photo {
-  width: 350px;
-  height: 450px;
+  height: 400px;
+  width: 300px;
   background-size: cover;
-  background-position: center;
+  background-position: 62% 0;
+}
+
+.photoWrapper::before {
+  content: '';
+  position: absolute;
+  height: 110%;
+  width: 105%;
+  border: 5px solid var(--primary);
+  left: 15px;
+  top: -15px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1066px) {
+  .photoWrapper {
+    margin-top: 50px;
+  }
 }
 

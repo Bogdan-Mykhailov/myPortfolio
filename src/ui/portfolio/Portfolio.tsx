@@ -26,14 +26,14 @@ export const Portfolio = () => {
             title="Todolist"
             description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium architecto commodi enim harum libero sed, totam. Mollitia nam, necessitatibus!'
             link='https://bogdan-mykhailov.github.io/myTodolist/#/login'
-            linkTitle='Todolist →'
+            linkTitle='Todolist'
           />
           <PortfolioItem
             style={memory}
             title="Memory Game"
             description='Lorem ipsum dolor sit amet, consectetur adipisicing elit harum libero sed, totam. Mollitia nam, necessitatibus!'
             link='https://dro5zd.github.io/friday-memory-cards-project/#/login'
-            linkTitle='Memory Game →'
+            linkTitle='Memory Game'
           />
         </div>
       </div>

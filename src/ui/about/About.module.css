@@ -1,5 +1,5 @@
 .about {
-  padding: 100px 0;
+  padding: 100px 0 70px;
   background-color: var(--gray-dark);
 }
 
@@ -18,8 +18,8 @@
 .photo {
   background-size: cover;
   background-position: center;
-  height: 550px;
-  width: 450px;
+  height: 500px;
+  width: 400px;
 }
 
 .bio {

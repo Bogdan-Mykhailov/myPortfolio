@@ -19,7 +19,7 @@
 
 .input {
   background-color: var(--gray-dark);
-  width: 80%;
+  width: 550px;
   border: 1px solid var(--gray-light);
   outline: none;
   font-size: 12px;
@@ -46,7 +46,8 @@
   font-weight: 400;
   line-height: 1.5;
   background-color: var(--gray-dark);
-  width: 80%;
+  width: 550px;
+
   margin-bottom: 5px;
   border: 1px solid var(--gray-light);
 }
@@ -56,44 +57,58 @@
   border: 1px solid var(--gray-dark);
 }
 
-.button {
-  max-width: 170px;
+.btn {
+  margin-top: 10px;
+  background: transparent;
   border: none;
-  margin: 15px 0;
-  background-color: transparent;
-  font-weight: 400;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-family: var(--poppins);
   font-size: 14px;
   line-height: 1.2;
-  font-family: var(--poppins);
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 7px 20px;
-  cursor: pointer;
+  padding: 8px 20px;
+  max-width: 160px;
+  width: 100%;
   color: var(--text);
+  outline: none;
   position: relative;
-  z-index: 1;
-  transition: all 0.4s ease-in-out 0s;
+  z-index: 0;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.button::after {
+.btn::after {
   content: '';
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 10px;
   width: 50%;
+  height: 10px;
   background: var(--primary);
+  bottom: 0;
   z-index: -1;
-  margin: 0 auto;
+  transition: all 0.2s ease-in-out;
 }
 
-.button:hover {
-  background-color: var(--primary);
+.btn:hover {
+  text-decoration: none;
+  color: var(--text);
 }
 
-@media screen and (max-width: 670px) {
-  .contactsForm {
-    width: 100%;
+.btn:hover::after {
+  width: 100%;
+  height: 106%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+@media screen and (max-width: 640px) {
+  .input,
+  .textarea {
+    width: 320px;
   }
 }

@@ -6,3 +6,9 @@
   align-items: center;
   padding-right: 20px;
 }
+
+@media screen and (max-width: 911px) {
+  .header {
+    justify-content: center;
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './PortfolioItem.module.css'
+import {Button} from "../../../common/components/Button/Button";
 
 type StyleType = {
   backgroundImage: string
@@ -23,7 +24,7 @@ export const PortfolioItem = ({
   return (
     <div className={s.portfolioItem}>
       <div className={s.imgWrapper} style={style}>
-        <a target="_blank" className={s.link} href={link}>{linkTitle}</a>
+        <Button title={linkTitle} link={link}/>
       </div>
       <div className={s.projectInfo}>
         <h3 className={s.projectName}>{title}</h3>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Fade } from 'react-awesome-reveal';
 import s from './Skill.module.css';
 
 interface ISkill {
@@ -16,9 +17,9 @@ export const Skill = ({
                       }: ISkill) => {
   return (
     <div className={s.skill}>
-      <div className={s.iconWrapper}>
-        <img className={s.icon} src={icon} alt={imgDescription}/>
-      </div>
+        <div className={s.iconWrapper}>
+          <img className={s.icon} src={icon} alt={imgDescription}/>
+        </div>
       <h3 className={s.title}>{title}</h3>
       <span className={s.description}>{skillDescription}</span>
     </div>

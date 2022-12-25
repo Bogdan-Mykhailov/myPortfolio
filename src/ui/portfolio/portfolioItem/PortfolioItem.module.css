@@ -27,16 +27,6 @@
   bottom: 0;
 }
 
-.link {
-  text-decoration: none;
-  background-color: var(--black-half-transparent);
-  padding: 10px 20px;
-  color: var(--text);
-  letter-spacing: 1px;
-  border-radius: 2px;
-  position: relative;
-}
-
 .projectInfo {
   padding: 25px 20px;
 }
@@ -56,4 +46,18 @@
   font-size: 12px;
   line-height: 1.8;
   color: var(--text);
+}
+
+@media screen and (max-width: 1199px) {
+  .portfolioItem {
+    width: 350px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .portfolioItem {
+    width: 450px;
+    margin-bottom: 20px;
+  }
 }

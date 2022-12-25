@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  width: 35%;
+  min-width: 40%;
   justify-content: space-between;
 }
 
@@ -10,4 +10,10 @@
   border-radius: 2px;
   position: relative;
   text-decoration: none;
+}
+
+@media screen and (max-width: 911px) {
+  .navLink {
+    margin: 0 5px;
+  }
 }
