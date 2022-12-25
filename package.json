@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Bogdan-Mykhailov.github.io/myPortfolio",
   "name": "project",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +20,6 @@
     "react-awesome-reveal": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.78",
-    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-tsparticles": "^2.7.0",
@@ -32,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
