@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.b78f0806.css",
+    "main.js": "/myPortfolio/static/js/main.01f5c2b2.js",
+    "static/js/787.ec704a7a.chunk.js": "/myPortfolio/static/js/787.ec704a7a.chunk.js",
+    "static/media/photo.jpg": "/myPortfolio/static/media/photo.a2dfce57cf9f0d24f852.jpg",
+    "static/media/Poppins-Regular.ttf": "/myPortfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/JosefinSans-VariableFont_wght.ttf": "/myPortfolio/static/media/JosefinSans-VariableFont_wght.1bfcfba29eda50476f98.ttf",
+    "static/media/memory.jpg": "/myPortfolio/static/media/memory.4ee3c3a5fae9d64caf25.jpg",
+    "static/media/todo.jpg": "/myPortfolio/static/media/todo.37cbc84d96fdc4ca5c44.jpg",
+    "static/media/react.svg": "/myPortfolio/static/media/react.1877f3f1f325a40db0d2e3ffb2212e2d.svg",
+    "static/media/redux.svg": "/myPortfolio/static/media/redux.b8ec0514772c5b0325c406290b5cb811.svg",
+    "static/media/square-github.svg": "/myPortfolio/static/media/square-github.465b6c1566da5f97cddbea607930caa3.svg",
+    "static/media/typescript.svg": "/myPortfolio/static/media/typescript.15b84a85a49f59d5829e9a30439e414e.svg",
+    "static/media/git.svg": "/myPortfolio/static/media/git.3469d5e49d108f56606746ced4acd52f.svg",
+    "static/media/javascript.svg": "/myPortfolio/static/media/javascript.ee661a9a753043b5955e926f3f541aa2.svg",
+    "static/media/telegram.svg": "/myPortfolio/static/media/telegram.ece05623539d236912ec908df0460b70.svg",
+    "index.html": "/myPortfolio/index.html",
+    "static/media/mui.svg": "/myPortfolio/static/media/mui.a09a6bcfd17952bf314e75183467bef3.svg",
+    "static/media/linkedin-in.svg": "/myPortfolio/static/media/linkedin-in.b851e440a2ef52e9570b53956f62fe7e.svg",
+    "static/media/css.svg": "/myPortfolio/static/media/css.ec0537efd15b751537bdb52c70952f06.svg",
+    "static/media/arrowUp.svg": "/myPortfolio/static/media/arrowUp.64bcb1b1933f532f4f0a0ac314a2b4fa.svg",
+    "static/media/html5.svg": "/myPortfolio/static/media/html5.8538150a5f93455257efa1ae9659d77a.svg",
+    "static/media/npm.svg": "/myPortfolio/static/media/npm.af819feb35d4999c82668db3cf0e32ae.svg",
+    "static/media/facebook-f.svg": "/myPortfolio/static/media/facebook-f.725087676231503290ed9813ccb4081e.svg",
+    "main.b78f0806.css.map": "/myPortfolio/static/css/main.b78f0806.css.map",
+    "main.01f5c2b2.js.map": "/myPortfolio/static/js/main.01f5c2b2.js.map",
+    "787.ec704a7a.chunk.js.map": "/myPortfolio/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b78f0806.css",
+    "static/js/main.01f5c2b2.js"
+  ]
+}
