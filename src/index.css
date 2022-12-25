@@ -15,7 +15,6 @@ code {
 
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth;
   font-family: var(--josefin-sans);
 }
 

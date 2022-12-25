@@ -4,6 +4,7 @@ import styles from '../../common/styles/Common.module.css'
 import mainPhoto from "../../assets/img/photo.jpg";
 import {Particle} from "../../common/components/Particle/Particle";
 import ReactTypingEffect from "react-typing-effect";
+import Tilt from 'react-parallax-tilt';
 
 
 export const Main = () => {
@@ -29,10 +30,26 @@ export const Main = () => {
             typingDelay={1000}
           />
         </div>
-        <div className={s.photoWrapper}>
-          <div className={s.photo} style={photo}></div>
-        </div>
+        <Tilt
+              tiltMaxAngleX={5}
+              tiltMaxAngleY={5}
+              perspective={1000}
+              transitionSpeed={1500}
+              scale={1.02}
+              gyroscope={true}>
+          <div className={s.photoWrapper}>
+            <Tilt tiltMaxAngleX={9}
+                  tiltMaxAngleY={9}
+                  perspective={800}
+                  transitionSpeed={1500}
+                  scale={1.02}
+                  gyroscope={true}>
+              <div className={s.photo} style={photo}></div>
+            </Tilt>
+          </div>
+        </Tilt>
       </div>
     </main>
-  );
+  )
+    ;
 };

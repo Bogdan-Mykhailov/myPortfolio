@@ -7,6 +7,8 @@ import {Portfolio} from "./ui/portfolio/Portfolio";
 import {Contacts} from "./ui/contacts/Contacts";
 import {Footer} from "./ui/footer/Footer";
 import {About} from "./ui/about/About";
+import {Link} from "react-scroll";
+import arrow from './assets/icons/arrowUp.svg'
 
 export const App = () => {
 
@@ -19,6 +21,9 @@ export const App = () => {
       <Skills/>
       <Contacts/>
       <Footer/>
+      <Link className={s.goTopBtn} to="home" smooth={true} offset={1} duration={500}>
+        <img className={s.icon} src={arrow} alt="Go top icon"/>
+      </Link>
     </div>
   )
 };

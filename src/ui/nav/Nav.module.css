@@ -9,6 +9,7 @@
   letter-spacing: 1px;
   border-radius: 2px;
   position: relative;
+  cursor: pointer;
   text-decoration: none;
 }
 
