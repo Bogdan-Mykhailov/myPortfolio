@@ -13,6 +13,16 @@
   text-decoration: none;
 }
 
+.navLink:hover::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary);
+  position: absolute;
+  left: 3px;
+  bottom: -5px;
+}
+
 @media screen and (max-width: 911px) {
   .navLink {
     margin: 0 5px;

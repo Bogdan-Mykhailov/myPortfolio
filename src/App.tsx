@@ -21,7 +21,7 @@ export const App = () => {
       <Skills/>
       <Contacts/>
       <Footer/>
-      <Link className={s.goTopBtn} to="home" smooth={true} offset={1} duration={500}>
+      <Link className={s.goTopBtn} to="home" smooth={true} offset={-100} duration={500}>
         <img className={s.icon} src={arrow} alt="Go top icon"/>
       </Link>
     </div>
