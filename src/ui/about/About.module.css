@@ -82,7 +82,7 @@
   margin-left: 20px;
   color: var(--text);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   text-decoration: none;
   font-family: var(--poppins);
@@ -91,13 +91,11 @@
 @media screen and (max-width: 1080px) {
   .about {
     padding: 50px 0 50px;
-    background-color: var(--gray-dark);
   }
   .bio {
     padding: 0 20px;
   }
 }
-
 
 @media screen and (max-width: 1138px) {
   .photo {
