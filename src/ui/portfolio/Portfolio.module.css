@@ -17,6 +17,13 @@
   align-items: flex-start;
 }
 
+@media screen and (max-width: 1080px) {
+  .portfolio {
+    padding: 50px 0 30px;
+  }
+}
+
+
 @media screen and (max-width: 1205px) {
   .portfolioWrapper {
     justify-content: center;

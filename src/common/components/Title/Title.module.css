@@ -22,3 +22,12 @@
   letter-spacing: 5px;
   line-height: 1.2;
 }
+
+@media screen and (max-width: 1138px) {
+  .title h2 {
+    margin: 0 0 50px;
+  }
+  .title::before {
+    bottom: 45px;
+  }
+}

@@ -112,3 +112,10 @@
     width: 320px;
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .contacts {
+    padding: 50px 0;
+  }
+}
+

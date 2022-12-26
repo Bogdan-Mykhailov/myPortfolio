@@ -1,5 +1,4 @@
 .skills {
-
   padding: 100px 0 50px;
   background-color: var(--gray-dark);
 }
@@ -11,7 +10,7 @@
 }
 
 .skillsWrapper {
-  width: 70%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -22,3 +21,20 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .skills {
+    padding: 50px 0 0;
+  }
+
+  .skillsWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1333px) {
+  .skillsWrapper {
+    width: 100%;
+  }
+}
+
