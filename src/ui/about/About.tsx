@@ -4,7 +4,6 @@ import styles from '../../common/styles/Common.module.css'
 import {Title} from "../../common/components/Title/Title";
 import portfolioImage from "../../assets/img/photo.jpg";
 
-
 export const About = () => {
   const portfolioImg = {
     backgroundImage: `url(${portfolioImage})`
@@ -23,11 +22,13 @@ export const About = () => {
               I am a Front End developer with a year of practice in Web development with React/Redux/TS technical stack.
               I also have experience working with RTK-query, Styled-components, popular dev tools and libraries.
             </span>
-            <p>Tel: <a href="tel:+380930179629">+380930179629</a></p>
-            <p>Email: <a href="mailto:bogdan_mykhailov@icloud.com">bogdan_mykhailov@icloud.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/bogdan-mykhailov/">Bogdan Mykhailov</a></p>
-            <p>Location: <span className={s.aboutMe}>Ukraine, Vinnytsia</span></p>
-            <p>Languages: <span className={s.aboutMe}>English, Ukrainian, Russian</span></p>
+            <div className={s.infoWrapper}>
+              <p>Tel: <a href="tel:+380930179629">+380930179629</a></p>
+              <p>Email: <a href="mailto:bogdan_mykhailov@icloud.com">bogdan_mykhailov@icloud.com</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/bogdan-mykhailov/">Bogdan Mykhailov</a></p>
+              <p>Location: <span className={s.aboutMe}>Ukraine, Vinnytsia</span></p>
+              <p>Languages: <span className={s.aboutMe}>English, Ukrainian, Russian</span></p>
+            </div>
           </div>
         </div>
       </div>
