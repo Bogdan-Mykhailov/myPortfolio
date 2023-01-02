@@ -1,1 +1,1 @@
-- [DEMO LINK](https://Bogdan-Mykhailov.github.io/myPortfolio/)
+[Portfolio link](https://Bogdan-Mykhailov.github.io/myPortfolio/)
