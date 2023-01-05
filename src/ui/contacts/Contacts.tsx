@@ -9,7 +9,7 @@ import {YOUR_PUBLIC_KEY, YOUR_SERVICE_ID, YOUR_TEMPLATE_ID} from "../../constant
 export const Contacts = () => {
   const form = useRef('');
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: any)  => {
   e.preventDefault();
 
     emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)

@@ -23,7 +23,7 @@
 }
 
 .bio {
-  padding: 30px 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -53,25 +53,14 @@
 .description {
   color: var(--text);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   font-family: var(--poppins);
   margin: 0 0 30px;
   position: relative;
 }
 
-.description::after {
-  position: absolute;
-  content: '';
-  border-bottom: 5px solid var(--primary);
-  border-right: 5px solid var(--primary);
-  top: -10px;
-  left: -10px;
-  right: -20px;
-  bottom: -20px;
-}
-
-.bio p {
+.infoDesc {
   margin: 0;
   color: var(--text);
   font-weight: 400;
@@ -90,7 +79,7 @@
   font-family: var(--poppins);
 }
 
-.bio a {
+.infoDescLink {
   margin-left: 20px;
   color: var(--text);
   font-weight: 400;
@@ -111,10 +100,11 @@
   .bio {
     min-height: 300px;
   }
-  .bio p {
+  .infoDesc {
     color: var(--primary);
     text-align: start;
   }
+
 }
 
 @media screen and (max-width: 1080px) {

@@ -24,14 +24,19 @@ export const Portfolio = () => {
           <PortfolioItem
             style={todo}
             title="Todolist"
-            description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium architecto commodi enim harum libero sed, totam. Mollitia nam, necessitatibus!'
+            description='This todolist is a simple and efficient way to manage your tasks and increase productivity.
+             It is a digital tool that allows you to create a list of things that you need to do,
+             and mark items as complete when they are finished.'
             link='https://bogdan-mykhailov.github.io/myTodolist/#/login'
             linkTitle='Todolist'
           />
           <PortfolioItem
             style={memory}
             title="Memory Game"
-            description='Lorem ipsum dolor sit amet, consectetur adipisicing elit harum libero sed, totam. Mollitia nam, necessitatibus!'
+            description='A memory card game is a digital version of educational game.
+            The game usually consists of a deck of cards with questions and the goal is to provide an answer.
+            Memory card games can be played on a phone or computer, and they can help improve memory, concentration,
+            and problem-solving skills.'
             link='https://dro5zd.github.io/friday-memory-cards-project/#/login'
             linkTitle='Memory Game'
           />
