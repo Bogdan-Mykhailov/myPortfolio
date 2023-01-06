@@ -6,5 +6,5 @@
 
 <im/>
 <a href='https://bogdan-mykhailov.github.io/myPortfolio/' rel='nofollow'>
-<img src="https://img.shields.io/badge/Portfolio_link-FFB387?style=for-the-badge&logo=Portfolio&logoColor=black" alt="portfolio">
+<img src="https://img.shields.io/badge/Portfolio_link-4e93e6?style=for-the-badge&logo=Portfolio&logoColor=black" alt="portfolio">
 </a>
