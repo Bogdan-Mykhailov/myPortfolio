@@ -50,6 +50,5 @@ export const Main = () => {
         </Tilt>
       </div>
     </main>
-  )
-    ;
+  );
 };
