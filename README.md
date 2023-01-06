@@ -5,5 +5,6 @@
 ![Portfolio](https://user-images.githubusercontent.com/91826635/211095023-7b970b1f-ce23-46c7-bc20-0d070c4fdb0e.png)
 
 <im/>
-
-[Portfolio link](https://Bogdan-Mykhailov.github.io/myPortfolio/)
+<a href='https://bogdan-mykhailov.github.io/myPortfolio/' rel='nofollow'>
+<img src="https://img.shields.io/badge/Portfolio-FFB387?style=for-the-badge&logo=Portfolio&logoColor=black" alt="portfolio">
+</a>
