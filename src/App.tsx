@@ -1,22 +1,21 @@
 import React from 'react';
 import s from './App.module.css';
-import {Header} from "./ui/header/Header";
-import {Main} from "./ui/main/Main";
-import {Skills} from "./ui/skills/Skills";
-import {Portfolio} from "./ui/portfolio/Portfolio";
-import {Contacts} from "./ui/contacts/Contacts";
-import {Footer} from "./ui/footer/Footer";
-import {About} from "./ui/about/About";
-import {Link} from "react-scroll";
+import { Main } from "./ui/main/Main";
+import { Skills } from "./ui/skills/Skills";
+import { Portfolio } from "./ui/portfolio/Portfolio";
+import { Contacts } from "./ui/contacts/Contacts";
+import { Footer } from "./ui/footer/Footer";
+import { About } from "./ui/about/About";
+import { Link } from "react-scroll";
 import arrow from './assets/icons/arrowUp.svg'
-import {Hamburger} from "./common/components/Hamburger/Hamburger";
+import { Hamburger } from "./common/components/Hamburger/Hamburger";
 
 export const App = () => {
 
   return (
     <div className={s.app}>
       <Hamburger />
-      <Header/>
+      {/*<Header/>*/}
       <Main/>
       <About/>
       <Portfolio/>
@@ -27,5 +26,5 @@ export const App = () => {
         <img className={s.icon} src={arrow} alt="Go top icon"/>
       </Link>
     </div>
-  )
+  );
 };

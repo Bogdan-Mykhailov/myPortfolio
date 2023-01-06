@@ -65,6 +65,8 @@
 
 .checkbox + .menu + .nav { opacity: 1; }
 
+.isHidden + .menu + .nav { z-index: -1; }
+
 .nav {
   z-index: 2;
   position: fixed;
@@ -77,18 +79,6 @@
 }
 
 .navLink {
-  /*font-size: 24px;*/
-  /*font-weight: 400;*/
-  /*margin-bottom: 1em;*/
-  /*display: block;*/
-  /*color: var(--primary);*/
-  /*letter-spacing: 1px;*/
-  /*cursor: pointer;*/
-  /*text-decoration: none;*/
-  /*position: relative;*/
-  /*width: max-content;*/
-
-
   font-size: 50px;
   line-height: 1.2;
   text-align: center;
@@ -99,15 +89,6 @@
   padding: 0;
 }
 
-/*.navLink:hover::after {*/
-/*  content: '';*/
-/*  width: 120%;*/
-/*  height: 3px;*/
-/*  background-color: var(--primary);*/
-/*  position: absolute;*/
-/*  left: -10%;*/
-/*  bottom: 10px;*/
-/*}*/
 .menuItem {
   color: transparent;
   position: relative;
@@ -177,4 +158,3 @@
 .menuItem:active .mask + .mask2 {
   transform: skewX(12deg) translateX(-5px);
 }
-

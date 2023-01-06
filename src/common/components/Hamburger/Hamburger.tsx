@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import s from './Hamburger.module.css'
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 export const Hamburger = () => {
   const [open, setOpen] = useState(false)
@@ -14,7 +14,7 @@ export const Hamburger = () => {
       <span className={open ? `${s.checkbox}` : `${s.isHidden}`}/>
         <span onClick={isOpenMenu} className={s.menu}> <span className={s.hamburger}></span> </span>
         <nav className={s.nav}>
-          <div className={s.menuItem}>
+          <label className={s.menuItem}>
             <Link onClick={isOpenMenu} className={s.navLink} to="home" smooth={true} offset={1} duration={500}>
               Home
               <span className={s.mask}>
@@ -24,8 +24,8 @@ export const Hamburger = () => {
                 <span>Home</span>
               </span>
             </Link>
-          </div>
-          <div className={s.menuItem}>
+          </label>
+          <label className={s.menuItem}>
             <Link onClick={isOpenMenu} className={s.navLink} to="about" smooth={true} offset={1} duration={500}>
               About
               <span className={s.mask}>
@@ -35,8 +35,8 @@ export const Hamburger = () => {
                 <span>About</span>
               </span>
             </Link>
-          </div>
-          <div className={s.menuItem}>
+          </label>
+          <label className={s.menuItem}>
             <Link onClick={isOpenMenu} className={s.navLink} to="portfolio" smooth={true} offset={1} duration={500}>
               Portfolio
               <span className={s.mask}>
@@ -46,8 +46,8 @@ export const Hamburger = () => {
                 <span>Portfolio</span>
               </span>
             </Link>
-          </div>
-          <div className={s.menuItem}>
+          </label>
+          <label className={s.menuItem}>
             <Link onClick={isOpenMenu} className={s.navLink} to="skills" smooth={true} offset={1} duration={500}>
               Skills
               <span className={s.mask}>
@@ -57,8 +57,8 @@ export const Hamburger = () => {
                 <span>Skills</span>
               </span>
             </Link>
-          </div>
-          <div className={s.menuItem}>
+          </label>
+          <label className={s.menuItem}>
             <Link onClick={isOpenMenu} className={s.navLink} to="contacts" smooth={true} offset={1} duration={500}>
               Contact
               <span className={s.mask}>
@@ -68,7 +68,7 @@ export const Hamburger = () => {
                 <span>Contact</span>
               </span>
             </Link>
-          </div>
+          </label>
         </nav>
     </label>
   );
