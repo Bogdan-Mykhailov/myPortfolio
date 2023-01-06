@@ -9,11 +9,13 @@ import {Footer} from "./ui/footer/Footer";
 import {About} from "./ui/about/About";
 import {Link} from "react-scroll";
 import arrow from './assets/icons/arrowUp.svg'
+import {Hamburger} from "./common/components/Hamburger/Hamburger";
 
 export const App = () => {
 
   return (
     <div className={s.app}>
+      <Hamburger />
       <Header/>
       <Main/>
       <About/>

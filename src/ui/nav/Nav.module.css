@@ -19,8 +19,8 @@
   height: 3px;
   background-color: var(--primary);
   position: absolute;
-  left: 3px;
-  bottom: -5px;
+  left: 0;
+  bottom: 0;
 }
 
 @media screen and (max-width: 911px) {
