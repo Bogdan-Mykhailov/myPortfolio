@@ -16,7 +16,7 @@ export const App = () => {
   return (
     <div className={s.app}>
       <Hamburger />
-      <Header/>
+      {/*<Header/>*/}
       <Main/>
       <About/>
       <Portfolio/>
