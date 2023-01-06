@@ -157,3 +157,8 @@
   transform: skewX(12deg) translateX(-5px);
 }
 
+@media screen and (max-width: 1080px) {
+  .checkbox + .menu {
+    box-shadow: 0 0 0 100vw var(--gray-dark), 0 0 0 2000px var(--gray-dark);
+  }
+}
