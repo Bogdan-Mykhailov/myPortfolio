@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './Portfolio.module.css'
 import styles from '../../common/styles/Common.module.css'
-import {PortfolioItem} from "./portfolioItem/PortfolioItem";
-import {Title} from "../../common/components/Title/Title";
+import { PortfolioItem } from "./portfolioItem/PortfolioItem";
+import { Title } from "../../common/components/Title/Title";
 import todoImg from '../../assets/img/todo.jpg'
 import memoryImg from '../../assets/img/memory.jpg'
+import boseImg from '../../assets/img/bose.jpg'
 
 export const Portfolio = () => {
 
@@ -14,6 +15,10 @@ export const Portfolio = () => {
 
   const todo = {
     backgroundImage: `url(${todoImg})`
+  };
+
+  const bose = {
+    backgroundImage: `url(${boseImg})`
   };
 
   return (
@@ -39,6 +44,13 @@ export const Portfolio = () => {
             and problem-solving skills.'
             link='https://dro5zd.github.io/friday-memory-cards-project/#/login'
             linkTitle='Memory Game'
+          />
+          <PortfolioItem
+            style={bose}
+            title="Bose Landing"
+            description='This is the Bose brand landing page, designed with a modern minimalist aesthetic and features.'
+            link='https://bogdan-mykhailov.github.io/bose_landing/'
+            linkTitle='Bose Landing'
           />
         </div>
       </div>
