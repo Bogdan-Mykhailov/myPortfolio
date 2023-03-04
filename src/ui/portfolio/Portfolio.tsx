@@ -6,6 +6,7 @@ import { Title } from "../../common/components/Title/Title";
 import todoImg from '../../assets/img/todo.jpg'
 import memoryImg from '../../assets/img/memory.jpg'
 import boseImg from '../../assets/img/bose.jpg'
+import chatImg from '../../assets/img/chat.jpg'
 
 export const Portfolio = () => {
 
@@ -19,6 +20,10 @@ export const Portfolio = () => {
 
   const bose = {
     backgroundImage: `url(${boseImg})`
+  };
+
+  const chat = {
+    backgroundImage: `url(${chatImg})`
   };
 
   return (
@@ -51,6 +56,13 @@ export const Portfolio = () => {
             description='This is the Bose brand landing page, designed with a modern minimalist aesthetic and features.'
             link='https://bogdan-mykhailov.github.io/bose_landing/'
             linkTitle='Bose Landing'
+          />
+          <PortfolioItem
+            style={chat}
+            title="Online chat"
+            description='This chat application built with React and Socket.io is a real-time communication tool that allows users to connect with each other instantly over the internet. It provides a smooth and seamless user experience, with features such as real-time messaging and user authentication.'
+            link='https://socket-online-chat.netlify.app/'
+            linkTitle='Online chat'
           />
         </div>
       </div>
