@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './About.module.css'
 import styles from '../../common/styles/Common.module.css'
-import {Title} from "../../common/components/Title/Title";
+import { Title } from "../../common/components/Title/Title";
 import portfolioImage from "../../assets/img/photo.jpg";
 
 export const About = () => {
@@ -19,7 +19,7 @@ export const About = () => {
             <h2 className={s.title}>Hello, I’m Bogdan Mykhailov</h2>
             <h3 className={s.subTitle}>Frontend developer</h3>
             <span className={s.description}>
-              I am a Front End developer with a year of practice in Web development with React/Redux/TS technical stack.
+              I’m a goal-oriented, creative and self-motivated web developer specializing in front-end with React/Redux technical stack.
               I also have experience working with RTK-query, Styled-components, popular dev tools and libraries.
             </span>
             <div className={s.infoWrapper}>
