@@ -11,6 +11,7 @@ import mui from '../../assets/icons/mui.svg'
 import npm from '../../assets/icons/npm.svg'
 import ts from '../../assets/icons/typescript.svg'
 import js from '../../assets/icons/javascript.svg'
+import node from '../../assets/icons/node.svg'
 import git from '../../assets/icons/git.svg'
 import {Fade} from "react-awesome-reveal";
 
@@ -29,6 +30,7 @@ export const Skills = () => {
                 skillDescription="I have gained experience in creating well-structured and valid HTML5 code,
                 skills in utilizing modern HTML tags and attributes for enhanced semantic value."
               />
+
               <Skill
                 title='CSS'
                 icon={css}
@@ -36,6 +38,7 @@ export const Skills = () => {
                 skillDescription='Able to utilizing advanced CSS3 features for enhanced styling and layout.
                 Have experience in integrating CSS with popular front-end frameworks.'
               />
+
               <Skill
                 title='Javascript'
                 icon={js}
@@ -43,6 +46,7 @@ export const Skills = () => {
                 skillDescription='I effectively use modern JavaScript features and syntax for efficient code, debug
                 and troubleshoot JavaScript code for improved performance. Skilled in integrating JavaScript with React.'
               />
+
               <Skill
                 title='Typescript'
                 icon={ts}
@@ -50,6 +54,14 @@ export const Skills = () => {
                 skillDescription='I have experience in using TypeScript to ensure code quality and reliability.
                 Has the skills to implement complex type definitions and interfaces for improved code organization.'
               />
+
+              <Skill
+                title='Node.js'
+                icon={node}
+                imgDescription='Skill icon'
+                skillDescription='I have practical experience working with Node.js to develop and deploy applications.'
+              />
+
               <Skill
                 title='React'
                 icon={react}
@@ -63,6 +75,7 @@ export const Skills = () => {
                 imgDescription='Skill icon'
                 skillDescription='Highly skilled in implementing advanced Redux patterns and best practices. Experienced in integrating Redux with React.'
               />
+
               <Skill
                 title='Mui'
                 icon={mui}
@@ -70,12 +83,14 @@ export const Skills = () => {
                 skillDescription="Good understanding how to use Material-UI's higher-order components and hooks to
                 connect UI to other parts of my application. Integrating Material-UI with React."
               />
+
               <Skill
                 title='NPM'
                 icon={npm}
                 imgDescription='Skill icon'
                 skillDescription='Installing and managing packages, working with package.json.'
               />
+
               <Skill
                 title='GIT'
                 icon={git}

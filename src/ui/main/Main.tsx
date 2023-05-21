@@ -24,7 +24,7 @@ export const Main = () => {
           </h1>
           <ReactTypingEffect
             className={s.role}
-            text={['Frontend developer.']}
+            text={['Full-stack developer.']}
             speed={200}
             eraseDelay={3000}
             typingDelay={1000}
