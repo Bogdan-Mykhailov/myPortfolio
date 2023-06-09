@@ -9,19 +9,21 @@ import {Footer} from "./ui/footer/Footer";
 import {About} from "./ui/about/About";
 import {Link} from "react-scroll";
 import arrow from './assets/icons/arrowUp.svg'
+import {Hamburger} from "./common/components/Hamburger/Hamburger";
 
 export const App = () => {
 
   return (
     <div className={s.app}>
-      <Header/>
+      <Hamburger />
+      {/*<Header/>*/}
       <Main/>
       <About/>
       <Portfolio/>
       <Skills/>
       <Contacts/>
       <Footer/>
-      <Link className={s.goTopBtn} to="home" smooth={true} offset={1} duration={500}>
+      <Link className={s.goTopBtn} to="home" smooth={true} offset={-100} duration={500}>
         <img className={s.icon} src={arrow} alt="Go top icon"/>
       </Link>
     </div>

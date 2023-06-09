@@ -29,15 +29,35 @@
   font-weight: 400;
   line-height: 1.5;
   height: calc(1.5em + 0.75rem + 2px);
-  color: var(--gray-light);
+  color: var(--white-half-transparent);
   transition: all 0.4s ease-in-out 0s;
   margin-bottom: 15px;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill,
+.textarea:-webkit-autofill,
+.textarea:-webkit-autofill:hover,
+.textarea:-webkit-autofill:focus {
+  border: 0;
+  -webkit-text-fill-color: var(--white-half-transparent);
+  -webkit-box-shadow: 0 0 0 1000px var(--gray-dark) inset;
+  transition: background-color 5000s ease-in-out 0s;
+  background: -webkit-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 174, 255, 0.04) 50%,
+      rgba(255, 255, 255, 0) 51%,
+      rgba(0, 174, 255, 0.03) 100%
+  );
 }
 
 .textarea {
   padding: 15px;
   resize: vertical;
-  color: var(--gray-light);
+  color: var(--white-half-transparent);
   transition: all 0.4s ease-in-out 0s;
   outline: none;
   font-size: 12px;
@@ -47,7 +67,6 @@
   line-height: 1.5;
   background-color: var(--gray-dark);
   width: 550px;
-
   margin-bottom: 5px;
   border: 1px solid var(--gray-light);
 }
@@ -112,3 +131,10 @@
     width: 320px;
   }
 }
+
+@media screen and (max-width: 1080px) {
+  .contacts {
+    padding: 50px 0;
+  }
+}
+

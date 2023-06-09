@@ -4,6 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.portfolioItem:last-child {
+  margin-bottom: 0;
 }
 
 .imgWrapper {
@@ -15,6 +21,11 @@
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+.portfolioItem:hover {
+  filter: brightness(75%);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .imgWrapper::before {
@@ -50,14 +61,13 @@
 
 @media screen and (max-width: 1199px) {
   .portfolioItem {
-    width: 350px;
+    width: 500px;
     margin: 10px;
   }
 }
 
 @media screen and (max-width: 986px) {
   .portfolioItem {
-    width: 450px;
-    margin-bottom: 20px;
+    width: 500px;
   }
 }

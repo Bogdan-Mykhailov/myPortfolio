@@ -49,3 +49,10 @@
     max-width: 450px;
   }
 }
+
+@media screen and (max-width: 610px) {
+  .description {
+    text-align: start;
+    font-size: 13px;
+  }
+}

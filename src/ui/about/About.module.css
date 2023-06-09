@@ -18,12 +18,12 @@
 .photo {
   background-size: cover;
   background-position: center;
-  height: 500px;
-  width: 400px;
+  height: 450px;
+  width: 350px;
 }
 
 .bio {
-  padding: 30px 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -53,13 +53,14 @@
 .description {
   color: var(--text);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   font-family: var(--poppins);
   margin: 0 0 30px;
+  position: relative;
 }
 
-.bio p {
+.infoDesc {
   margin: 0;
   color: var(--text);
   font-weight: 400;
@@ -78,18 +79,74 @@
   font-family: var(--poppins);
 }
 
-.bio a {
+.infoDescLink {
   margin-left: 20px;
   color: var(--text);
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   text-decoration: none;
   font-family: var(--poppins);
+  text-align: center;
 }
 
-@media screen and (max-width: 1138px) {
+@media screen and (max-width: 498px) {
+  .description::after {
+    display: none;
+  }
+  .about {
+    padding: 50px 0 10px;
+  }
+  .bio {
+    min-height: 300px;
+  }
+  .infoDesc {
+    color: var(--primary);
+    text-align: start;
+  }
+  .photo {
+    height: 400px;
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 1080px) {
+  .about {
+    padding: 50px 0 50px;
+  }
+  .bio {
+    padding: 0 20px;
+  }
+  .photo {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    margin-bottom: 20px;
+  }
+
+  .photo::before {
+    content: '';
+    position: absolute;
+    height: 106%;
+    width: 102%;
+    border: 5px solid var(--primary);
+    left: 14px;
+    top: -12px;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1081px) {
   .photo {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo {
+    height: 500px;
+    width: 400px;
   }
 }
