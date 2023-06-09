@@ -8,6 +8,7 @@ import memoryImg from '../../assets/img/memory.jpg'
 import boseImg from '../../assets/img/bose.jpg'
 import chatImg from '../../assets/img/chat.jpg'
 import productCatalogImg from '../../assets/img/productCatalog.jpg'
+import hounterImg from '../../assets/img/hounter.jpg'
 
 export const Portfolio = () => {
 
@@ -31,6 +32,10 @@ export const Portfolio = () => {
     backgroundImage: `url(${productCatalogImg})`
   };
 
+  const hounter = {
+    backgroundImage: `url(${hounterImg})`
+  };
+
   return (
     <section id='portfolio' className={s.portfolio}>
       <div className={`${styles.container} ${s.portfolioContainer}`}>
@@ -45,6 +50,14 @@ export const Portfolio = () => {
           />
 
           <PortfolioItem
+            style={bose}
+            title="Bose Landing"
+            description='This is the Bose brand landing page, designed with a modern minimalist aesthetic and features.'
+            link='https://bogdan-mykhailov.github.io/bose_landing/'
+            linkTitle='Bose'
+          />
+
+          <PortfolioItem
             style={todo}
             title="Todolist"
             description='This todolist is a simple and efficient way to manage your tasks and increase productivity.
@@ -55,19 +68,19 @@ export const Portfolio = () => {
           />
 
           <PortfolioItem
-            style={bose}
-            title="Bose Landing"
-            description='This is the Bose brand landing page, designed with a modern minimalist aesthetic and features.'
-            link='https://bogdan-mykhailov.github.io/bose_landing/'
-            linkTitle='Bose Landing'
-          />
-
-          <PortfolioItem
             style={chat}
             title="Online chat"
             description='This chat application built with React and Socket.io is a real-time communication tool that allows users to connect with each other instantly over the internet. It provides a smooth and seamless user experience, with features such as real-time messaging and user authentication.'
             link='https://socket-online-chat.netlify.app/'
             linkTitle='Online chat'
+          />
+
+          <PortfolioItem
+            style={hounter}
+            title="Hounter rental app"
+            description='The Hounter is an innovative web application designed to assist users in finding their ideal rental or purchase property, be it apartments, houses, or villas.'
+            link='https://bogdan-mykhailov.github.io/landing_test/'
+            linkTitle='Hounter'
           />
 
           <PortfolioItem
