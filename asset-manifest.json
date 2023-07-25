@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.80d48054.css",
-    "main.js": "/myPortfolio/static/js/main.bc7e3d66.js",
+    "main.js": "/myPortfolio/static/js/main.a7c1ff6a.js",
     "static/js/787.ec704a7a.chunk.js": "/myPortfolio/static/js/787.ec704a7a.chunk.js",
     "static/media/photo.jpg": "/myPortfolio/static/media/photo.a2dfce57cf9f0d24f852.jpg",
     "static/media/chat.jpg": "/myPortfolio/static/media/chat.54942d143ed500622b82.jpg",
@@ -11,6 +11,7 @@
     "static/media/memory.jpg": "/myPortfolio/static/media/memory.4ee3c3a5fae9d64caf25.jpg",
     "static/media/todo.jpg": "/myPortfolio/static/media/todo.37cbc84d96fdc4ca5c44.jpg",
     "static/media/bose.jpg": "/myPortfolio/static/media/bose.73a1150718b8f7dbee89.jpg",
+    "static/media/coach.jpeg": "/myPortfolio/static/media/coach.6ad7bdcea7551557ba5f.jpeg",
     "static/media/productCatalog.jpg": "/myPortfolio/static/media/productCatalog.d2f84021cf533d92f686.jpg",
     "static/media/react.svg": "/myPortfolio/static/media/react.1877f3f1f325a40db0d2e3ffb2212e2d.svg",
     "static/media/redux.svg": "/myPortfolio/static/media/redux.b8ec0514772c5b0325c406290b5cb811.svg",
@@ -29,11 +30,11 @@
     "static/media/npm.svg": "/myPortfolio/static/media/npm.af819feb35d4999c82668db3cf0e32ae.svg",
     "static/media/facebook-f.svg": "/myPortfolio/static/media/facebook-f.725087676231503290ed9813ccb4081e.svg",
     "main.80d48054.css.map": "/myPortfolio/static/css/main.80d48054.css.map",
-    "main.bc7e3d66.js.map": "/myPortfolio/static/js/main.bc7e3d66.js.map",
+    "main.a7c1ff6a.js.map": "/myPortfolio/static/js/main.a7c1ff6a.js.map",
     "787.ec704a7a.chunk.js.map": "/myPortfolio/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80d48054.css",
-    "static/js/main.bc7e3d66.js"
+    "static/js/main.a7c1ff6a.js"
   ]
 }
