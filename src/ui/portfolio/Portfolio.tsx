@@ -9,6 +9,7 @@ import boseImg from '../../assets/img/bose.jpg'
 import chatImg from '../../assets/img/chat.jpg'
 import productCatalogImg from '../../assets/img/productCatalog.jpg'
 import hounterImg from '../../assets/img/hounter.jpg'
+// import coachImg from '../../assets/img/coach.jpeg'
 
 export const Portfolio = () => {
 
@@ -35,6 +36,10 @@ export const Portfolio = () => {
   const hounter = {
     backgroundImage: `url(${hounterImg})`
   };
+
+  // const coach = {
+  //   backgroundImage: `url(${coachImg})`
+  // };
 
   return (
     <section id='portfolio' className={s.portfolio}>
@@ -93,6 +98,18 @@ export const Portfolio = () => {
             link='https://dro5zd.github.io/friday-memory-cards-project/#/login'
             linkTitle='Memory Game'
           />
+
+          {/*<PortfolioItem*/}
+          {/*  style={coach}*/}
+          {/*  title="Find a coach"*/}
+          {/*  description="Welcome to the Find a coach App - Your Personal Guide to Success in the World of Development!*/}
+					{/*	If you're a developer seeking personalized guidance to level up your skills, our platform is tailor-made for you.*/}
+					{/*	The Find a coach App connects aspiring developers like you with experienced coaches dedicated to*/}
+					{/*	helping you reach your full potential."*/}
+          {/*  link='https://find-a-coach-one.vercel.app/coaches'*/}
+          {/*  linkTitle='Find a coach'*/}
+          {/*/>*/}
+
         </div>
       </div>
     </section>

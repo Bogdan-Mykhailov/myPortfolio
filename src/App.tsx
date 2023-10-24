@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './App.module.css';
-import {Header} from "./ui/header/Header";
 import {Main} from "./ui/main/Main";
 import {Skills} from "./ui/skills/Skills";
 import {Portfolio} from "./ui/portfolio/Portfolio";
@@ -23,8 +22,18 @@ export const App = () => {
       <Skills/>
       <Contacts/>
       <Footer/>
-      <Link className={s.goTopBtn} to="home" smooth={true} offset={-100} duration={500}>
-        <img className={s.icon} src={arrow} alt="Go top icon"/>
+      <Link
+        className={s.goTopBtn}
+        to="home"
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
+        <img
+          className={s.icon}
+          src={arrow}
+          alt="Go top icon"
+        />
       </Link>
     </div>
   )
