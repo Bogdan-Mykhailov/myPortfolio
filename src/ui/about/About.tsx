@@ -19,7 +19,7 @@ export const About = () => {
             <h2 className={s.title}>Hello, I’m Bogdan Mykhailov</h2>
             <h3 className={s.subTitle}>Full-stack developer</h3>
             <span className={s.description}>
-             I'm a self-motivated Full-Stack Developer with 1.5 years of experience in React, Redux, and Node.js. Skilled in RTK-query, PostgreSQL, and problem-solving, I deliver high-quality solutions. Crafting user-friendly web apps is my passion, and I thrive in collaborative environments. I'm committed to continuous learning and pursuing innovative projects.
+             I am a developer, with over two years of experience. My areas of expertise encompass React, Next.js, Vue.js, Redux, and Node.js. Additionally, I have had the opportunity to work with RTK-query, PostgreSQL, and various development tools and libraries. I am constantly seeking to expand my knowledge and skills by learning new frameworks and technologies to stay up to date with the latest industry trends. In general, I possess a strong skill set that is coupled with a passion for continuous improvement as a developer. I am committed to maintaining a high level of professionalism, and I would be honored to bring my expertise to any business.
             </span>
             <div className={s.infoWrapper}>
               <p className={s.infoDesc}>Tel: <a className={s.infoDescLink} href="tel:+380930179629">+380930179629</a></p>

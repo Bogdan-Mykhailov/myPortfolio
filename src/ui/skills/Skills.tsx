@@ -13,6 +13,8 @@ import ts from '../../assets/icons/typescript.svg'
 import js from '../../assets/icons/javascript.svg'
 import node from '../../assets/icons/node.svg'
 import git from '../../assets/icons/git.svg'
+import next from '../../assets/icons/next.svg'
+import vue from '../../assets/icons/vue.svg'
 import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
@@ -56,19 +58,34 @@ export const Skills = () => {
               />
 
               <Skill
+                title='React.js'
+                icon={react}
+                imgDescription='Skill icon'
+                skillDescription='Strong understanding of the principles and concepts behind React and is able
+              to apply this knowledge to my work.'
+              />
+
+              <Skill
+                title='Next.js'
+                icon={next}
+                imgDescription='Skill icon'
+                skillDescription='I possess advanced skills in Next.js, which allows me to develop dynamic and high-performing web applications with great efficiency.'
+              />
+
+              <Skill
+                title='Vue.js'
+                icon={vue}
+                imgDescription='Skill icon'
+                skillDescription='My expertise in Vue.js enables me to create elegant, responsive, and interactive user interfaces for web applications.'
+              />
+
+              <Skill
                 title='Node.js'
                 icon={node}
                 imgDescription='Skill icon'
                 skillDescription='I have practical experience working with Node.js to develop and deploy applications.'
               />
 
-              <Skill
-                title='React'
-                icon={react}
-                imgDescription='Skill icon'
-                skillDescription='Strong understanding of the principles and concepts behind React and is able
-              to apply this knowledge to my work.'
-              />
               <Skill
                 title='Redux'
                 icon={redux}
