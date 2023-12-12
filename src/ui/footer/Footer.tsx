@@ -17,7 +17,7 @@ export const Footer = () => {
         <Title title='Bogdan Mykhailov '/>
         <Fade direction={"left"} cascade damping={1e-1} triggerOnce duration={1000}>
           <div className={s.socialWrapper}>
-            <a className={s.socialLink} target="_blank" href="https://www.linkedin.com/in/bogdan-mykhailov/">
+            <a className={s.socialLink} target="_blank" href="https://www.linkedin.com/in/mykhailov-bogdan/">
               <img className={s.icon} src={linkedIn} alt="LinkedIn icon"/>
             </a>
             <a className={s.socialLink} target="_blank" href="https://github.com/Bogdan-Mykhailov">
