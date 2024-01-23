@@ -9,7 +9,8 @@ import boseImg from '../../assets/img/bose.jpg'
 import chatImg from '../../assets/img/chat.jpg'
 import productCatalogImg from '../../assets/img/productCatalog.jpg'
 import hounterImg from '../../assets/img/hounter.jpg'
-// import coachImg from '../../assets/img/coach.jpeg'
+import kanbanImg from '../../assets/img/kanban.png'
+
 
 export const Portfolio = () => {
 
@@ -37,10 +38,11 @@ export const Portfolio = () => {
     backgroundImage: `url(${hounterImg})`
   };
 
-  // const coach = {
-  //   backgroundImage: `url(${coachImg})`
-  // };
+  const kanban = {
+    backgroundImage: `url(${kanbanImg})`
+  };
 
+  // @ts-ignore
   return (
     <section id='portfolio' className={s.portfolio}>
       <div className={`${styles.container} ${s.portfolioContainer}`}>
@@ -99,16 +101,13 @@ export const Portfolio = () => {
             linkTitle='Memory Game'
           />
 
-          {/*<PortfolioItem*/}
-          {/*  style={coach}*/}
-          {/*  title="Find a coach"*/}
-          {/*  description="Welcome to the Find a coach App - Your Personal Guide to Success in the World of Development!*/}
-					{/*	If you're a developer seeking personalized guidance to level up your skills, our platform is tailor-made for you.*/}
-					{/*	The Find a coach App connects aspiring developers like you with experienced coaches dedicated to*/}
-					{/*	helping you reach your full potential."*/}
-          {/*  link='https://find-a-coach-one.vercel.app/coaches'*/}
-          {/*  linkTitle='Find a coach'*/}
-          {/*/>*/}
+          <PortfolioItem
+            style={kanban}
+            title="Kanbab Board"
+            description="A Kanban board is a visual project management tool that originated from lean manufacturing practices and has since been widely adopted in various industries for efficient task and workflow management. The board itself is typically divided into columns representing different stages of a process, with each column containing cards that represent individual tasks or work items."
+            link='https://kanban-board-six-omega.vercel.app/'
+            linkTitle='Kanbab Board'
+          />
 
         </div>
       </div>
