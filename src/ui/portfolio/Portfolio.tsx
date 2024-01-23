@@ -42,7 +42,6 @@ export const Portfolio = () => {
     backgroundImage: `url(${kanbanImg})`
   };
 
-  // @ts-ignore
   return (
     <section id='portfolio' className={s.portfolio}>
       <div className={`${styles.container} ${s.portfolioContainer}`}>
