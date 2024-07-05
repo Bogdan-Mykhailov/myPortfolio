@@ -10,6 +10,7 @@ import chatImg from '../../assets/img/chat.jpg'
 import productCatalogImg from '../../assets/img/productCatalog.jpg'
 import hounterImg from '../../assets/img/hounter.jpg'
 import kanbanImg from '../../assets/img/kanban.png'
+import quizImg from '../../assets/img/quiz.png'
 
 
 export const Portfolio = () => {
@@ -42,7 +43,10 @@ export const Portfolio = () => {
     backgroundImage: `url(${kanbanImg})`
   };
 
-  // @ts-ignore
+  const quiz = {
+    backgroundImage: `url(${quizImg})`
+  };
+
   return (
     <section id='portfolio' className={s.portfolio}>
       <div className={`${styles.container} ${s.portfolioContainer}`}>
@@ -88,6 +92,14 @@ export const Portfolio = () => {
             description='The Hounter is an innovative web application designed to assist users in finding their ideal rental or purchase property, be it apartments, houses, or villas.'
             link='https://bogdan-mykhailov.github.io/landing_test/'
             linkTitle='Hounter'
+          />
+
+          <PortfolioItem
+            style={quiz}
+            title="Quiz Mania"
+            description='Quiz Mania is an interactive quiz application built using React and TypeScript. The application supports multi-step forms, localization using i18next, and form validation using React Hook Form. Additionally, the application includes components for handling various quiz question types, such as language selection, gender, age, book preferences, and more.'
+            link='https://quiz-mania-sigma.vercel.app/#/quiz/1'
+            linkTitle='Quiz Mania'
           />
 
           <PortfolioItem
