@@ -4,7 +4,6 @@ import styles from '../../common/styles/Common.module.css'
 import {PortfolioItem} from "./portfolioItem/PortfolioItem";
 import {Title} from "../../common/components/Title/Title";
 import todoImg from '../../assets/img/todo.jpg'
-import memoryImg from '../../assets/img/memory.jpg'
 import boseImg from '../../assets/img/bose.jpg'
 import chatImg from '../../assets/img/chat.jpg'
 import productCatalogImg from '../../assets/img/productCatalog.jpg'
@@ -14,11 +13,6 @@ import quizImg from '../../assets/img/quiz.png'
 
 
 export const Portfolio = () => {
-
-  const memory = {
-    backgroundImage: `url(${memoryImg})`
-  };
-
   const todo = {
     backgroundImage: `url(${todoImg})`
   };
@@ -61,11 +55,27 @@ export const Portfolio = () => {
           />
 
           <PortfolioItem
+            style={quiz}
+            title="Quiz Mania"
+            description='Quiz Mania is an interactive quiz application built using React and TypeScript. The application supports multi-step forms, localization using i18next, and form validation using React Hook Form. Additionally, the application includes components for handling various quiz question types, such as language selection, gender, age, book preferences, and more.'
+            link='https://quiz-mania-sigma.vercel.app/#/quiz/1'
+            linkTitle='Quiz Mania'
+          />
+
+          <PortfolioItem
             style={bose}
             title="Bose Landing"
             description='This is the Bose brand landing page, designed with a modern minimalist aesthetic and features.'
             link='https://bogdan-mykhailov.github.io/bose_landing/'
             linkTitle='Bose'
+          />
+
+          <PortfolioItem
+            style={hounter}
+            title="Hounter rental app"
+            description='The Hounter is an innovative web application designed to assist users in finding their ideal rental or purchase property, be it apartments, houses, or villas.'
+            link='https://bogdan-mykhailov.github.io/landing_test/'
+            linkTitle='Hounter'
           />
 
           <PortfolioItem
@@ -84,33 +94,6 @@ export const Portfolio = () => {
             description='This chat application built with React and Socket.io is a real-time communication tool that allows users to connect with each other instantly over the internet. It provides a smooth and seamless user experience, with features such as real-time messaging and user authentication.'
             link='https://socket-online-chat.netlify.app/'
             linkTitle='Online chat'
-          />
-
-          <PortfolioItem
-            style={hounter}
-            title="Hounter rental app"
-            description='The Hounter is an innovative web application designed to assist users in finding their ideal rental or purchase property, be it apartments, houses, or villas.'
-            link='https://bogdan-mykhailov.github.io/landing_test/'
-            linkTitle='Hounter'
-          />
-
-          <PortfolioItem
-            style={quiz}
-            title="Quiz Mania"
-            description='Quiz Mania is an interactive quiz application built using React and TypeScript. The application supports multi-step forms, localization using i18next, and form validation using React Hook Form. Additionally, the application includes components for handling various quiz question types, such as language selection, gender, age, book preferences, and more.'
-            link='https://quiz-mania-sigma.vercel.app/#/quiz/1'
-            linkTitle='Quiz Mania'
-          />
-
-          <PortfolioItem
-            style={memory}
-            title="Memory Game"
-            description='A memory card game is a digital version of educational game.
-            The game usually consists of a deck of cards with questions and the goal is to provide an answer.
-            Memory card games can be played on a phone or computer, and they can help improve memory, concentration,
-            and problem-solving skills.'
-            link='https://dro5zd.github.io/friday-memory-cards-project/#/login'
-            linkTitle='Memory Game'
           />
 
           <PortfolioItem

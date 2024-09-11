@@ -103,12 +103,11 @@
   content: '';
   display: block;
   position: absolute;
-  top: 49%;
+  top: 50%;
   left: -10%;
   right: -10%;
-  height: 5px;
+  height: 1px;
   border-radius: 4px;
-  margin-top: -2px;
   background: var(--text);
   -webkit-transform: scale(0);
   transform: scale(0);
